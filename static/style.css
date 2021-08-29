@@ -1,0 +1,537 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav{
+    background-color:black;
+    position: sticky;;
+    top:0px;
+    
+    
+}
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 37px;
+    float: right;
+    
+    
+}
+
+.nav ul a{
+    text-decoration: none;
+    padding: 27px;
+    margin:10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+    
+
+    
+    
+}
+.nav #logo{
+    display: block; 
+
+}
+
+
+.center{
+    display: block;
+    margin-top: 8px;
+    margin-left: 20px;
+    float: left;
+
+    
+    /* margin: auto; */
+    
+}
+.nav li a:hover{
+    color:red;
+    border:5px solid black;
+    border-radius: 25px;
+    
+
+    background-color:white;
+    padding:5px;
+    margin: 8px;
+
+}
+
+#home::before{
+    background: url("https://www.chainalytics.com/wp-content/uploads/2017/04/Global-Delivery.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 1070px;
+    width:100vw;
+    z-index: -1;
+    opacity: 0.79;
+}
+
+#home .heading{
+    font-weight:bolder;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 35px;
+    font-size: 50px;
+    color:#52595D;
+} 
+#home .heading2{
+    font-weight: bold;
+    font-family:'Monoton', cursive;
+    text-align: center;
+    font-size: 55px;
+    color:#151B54;
+    margin-top: 20px;
+    
+    
+    
+}
+.gif1{
+    margin-left: 150px;
+
+
+}
+    
+
+ 
+#home .heading2::first-letter{
+    color: #A70D2A;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+#form #information{
+    display: flex;
+}
+
+#form #information #pc{
+    float: left;
+    display: block;
+    margin-left: 87px;
+}
+#form #information #pi{
+    display: block;
+    
+    margin: auto;
+}
+    
+
+#form h2{
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#form h3{
+    font-size: 30px;
+    font-family:cursive;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+
+#pc{
+    margin: auto;
+    display: Flex;
+    flex-direction: column;
+    width:20%;
+    margin-top: 25px;
+    
+
+}
+#pc input{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 9px;
+    border:2px solid grey;
+
+}
+#pi{
+    /* margin: auto; */
+    display: Flex;
+    flex-direction: column;
+    width:18%;
+    margin-top: 25px;
+}
+
+#pi input{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 9px;
+    border:2px solid grey;
+
+}
+
+#pi textarea{
+    text-align: center;
+    padding: 10px;
+    margin:10px ;
+    border-radius: 9px;
+    border:2px solid grey;
+
+
+
+}
+
+.btn1{
+    margin-left: 80px;
+    width:70%;
+    cursor: pointer;
+    border-radius: 10px ;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.btn2{
+    margin-left: 90px;
+    margin-bottom: 14px;
+    width:70%;
+    cursor:pointer;
+    border-radius: 10px ;
+    border:2px solid black;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+#about h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top:170px;
+    background: url("https://thumbs.dreamstime.com/z/beautiful-brown-stones-bricks-background-texture-structured-stone-textured-basement-stairs-building-material-architectural-149618169.jpg") no-repeat center center/cover;
+    height: 100px;
+    font-weight: bold;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: table-cell;
+}
+#aboutpara{
+    display: flex;
+    flex-direction: row;
+
+}
+#aboutpara p{
+    font-size: 25px;
+    margin-top: 120px;
+    margin-left: 49px;
+    margin-right: 35px;
+    
+    font-family: 'Baloo Bhai 2',cursive;
+    color: blue; /* Fallback solid color */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+/* Text color gradient properties */
+    background: -webkit-linear-gradient(red,black);
+    -webkit-background-clip: text;
+
+    background-clip:border-box ;
+    -webkit-background-clip: text;
+}
+
+
+#aboutpara #aboutimg{
+    margin-top: 30px;
+    margin-right: 25px;
+    
+
+    
+}
+
+#services h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+}
+
+#services h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top:50px;
+    background: url("https://th.bing.com/th/id/OIP.5vMg3-0Qgwq-8yGVBbRWPAHaDe?w=326&h=164&c=7&o=5&dpr=1.5&pid=1.7") no-repeat center center/cover;
+    height: 120px;
+    font-weight: bolder;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.9;
+
+}
+#servicespara1{
+    display: flex;
+    flex-direction: row;
+
+}
+#servicespara1 p{
+    font-size: 25px;
+    margin-top: 120px;
+    
+    margin-left:100px;
+    margin-right: 110px;
+    
+    font-family: cursive;
+    color: rgb(255, 0, 0); /* Fallback solid color */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+/* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(168, 78, 4),rgb(96, 3, 124));
+    -webkit-background-clip: text;
+
+    background-clip:border-box ;
+    -webkit-background-clip: text;
+}
+#servicespara1 #servicesimg1{
+    margin-top: 30px;
+    margin-left: 65px;
+    
+
+    
+}
+#servicespara2{
+    display: flex;
+    flex-direction: row;
+
+}
+#servicespara2 p{
+    font-size: 25px;
+    margin-top: 120px;
+    
+    margin-left:100px;
+    margin-right: 110px;
+    
+    font-family: cursive;
+    color: rgb(255, 0, 0); /* Fallback solid color */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+/* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(168, 78, 4),rgb(96, 3, 124));
+    -webkit-background-clip: text;
+
+    background-clip:border-box ;
+    -webkit-background-clip: text;
+}
+#servicespara2 #servicesimg2{
+    margin-top: 30px;
+    margin-left: 65px;
+    
+
+    
+}
+#servicespara3{
+    display: flex;
+    flex-direction: row;
+
+}
+#servicespara3 p{
+    font-size: 25px;
+    margin-top: 120px;
+    
+    margin-left:100px;
+    margin-right: 110px;
+    
+    font-family: cursive;
+    color: rgb(255, 0, 0); /* Fallback solid color */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+/* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(168, 78, 4),rgb(96, 3, 124));
+    -webkit-background-clip: text;
+
+    background-clip:border-box ;
+    -webkit-background-clip: text;
+}
+#servicespara3 #servicesimg3{
+    margin-top: 30px;
+    margin-left: 65px;
+    
+
+    
+}
+
+#contactus h1{
+    font-size: 46px;
+    text-align: center;
+    color: black;
+    margin-top:100px;
+    background: url("https://th.bing.com/th/id/OIP.BPszeFdKggixWjGVdyf_AQHaCY?w=313&h=112&c=7&o=5&dpr=1.5&pid=1.7") no-repeat center center/cover;
+    height: 140px;
+    font-weight: bolder;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.9;
+
+}
+
+#contactus::before{
+    background: url("https://th.bing.com/th/id/R.199383713ae1e0d24cd3afd1111f27f3?rik=MLvaZ3EILtZN1g&riu=http%3a%2f%2fwww.bankofbaroda.com%2fwritereaddata%2fPortal%2fCMS_Template_Banner%2f42_1_contact-us.jpg&ehk=lPqFmPeKzmMaNR3ZyZbcXvWyL5yuRs%2f8tjG%2bG3DeAqY%3d&risl=&pid=ImgRaw&r=0") no-repeat center center/cover;
+    /* background: url("http://woodpeckerframes.com/wp-content/uploads/2018/06/contact_banner.jpg") no-repeat center center/cover; */
+    content: "";
+    /* background-color: black; */
+    position: absolute;
+    height:840px;
+    
+
+    
+    width:100vw;
+    z-index: -1;
+    opacity: 0.6;
+    
+
+}
+#contactinfo h2#getintouch{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 41px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: rgb(255, 0, 0); /* Fallback solid color */
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+/* Text color gradient properties */
+    background: -webkit-linear-gradient(rgb(71, 33, 236),rgb(235, 26, 11));
+    -webkit-background-clip: text;
+
+    background-clip:border-box ;
+    -webkit-background-clip: text;
+}
+#contactinfo2 h3{
+    font-size: 31px;
+    margin-left: 60px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    color: rgb(1, 78, 78);
+
+}
+
+#contactinfo2 p{
+    font-size:23px ;
+    margin-left:60px ;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+#contactinfo2{
+    display: flex;
+}
+
+#contactinfo2 #pi2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left:480px;
+    margin-right: 60px;
+    
+}
+#pi2{
+    border:5px solid black;
+    border-width:20px ;
+
+}
+
+#pi2 input{
+    margin: 6px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 80, 80, 0.445);
+
+}
+
+#pi2 textarea{
+    margin: 6px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 80, 80, 0.445);
+}
+
+#pi2 .querybutton{
+    width: 30%;
+    margin: auto;
+    margin-top: 6px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 3px solid rgb(92, 91, 91);
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+#pi2 .querybutton:hover{
+    color: rgb(235, 26, 11);
+}
+footer{
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* transition effects */
+
+#servicesimg1{
+    transition-property: all;
+    transition-duration: 4s;
+    
+
+}
+#servicesimg1:hover{
+    transform: rotate(360deg);
+    /* transform: skew(20deg); */
+
+}
+
+#servicesimg2{
+    transition-property: all;
+    transition-duration: 4s;
+
+}
+#servicesimg2:hover{
+    transform: rotate(360deg);
+    /* transform: skew(20deg); */
+
+}
+
+#servicesimg3{
+    transition-property: all;
+    transition-duration: 4s;
+
+}
+#servicesimg3:hover{
+    transform: rotate(360deg);
+    /* transform: skew(20deg); */
+
+}
+
